@@ -2,6 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
+
+  /** Für Bon Vivant Family **/
+  @font-face {
+      font-family: "Bon Vivant Family";
+      src: url("public/fonts/BonVivantSerifBold.ttf");
+      font-weight: normal;
+  }
+
+  /* Karla für Body */
+  body {
+      font-family: 'Karla', sans-serif;
+  }
+
+  /* Rubik für Navigation */
+  nav {
+      font-family: 'Rubik', sans-serif;
+  }
+
+  /* Bon Vivant für Überschriften */
+  h1, h2, h3, h4, h5, h6 {
+      font-family: 'Bon Vivant Family', serif !important;
+  }
+
+  /* Weitere Stile für Buttons und Texte */
+  btn{
+      font-family: 'Karla', sans-serif;
+  }
+
+
 @layer base {
   :root {
     --background: 0 0% 100%;
