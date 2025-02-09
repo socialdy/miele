@@ -15,13 +15,22 @@
       font-family: 'Karla', sans-serif;
   }
 
+  nav, .mobile{
+    font-family: 'Rubik', sans-serif;
+    font-size: 12px !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-transform: uppercase;
+    padding: 0 15px;
+  }
+
   /* Rubik für Navigation */
-  nav {
+  nav, h3 {
       font-family: 'Rubik', sans-serif;
   }
 
   /* Bon Vivant für Überschriften */
-  h1, h2, h3, h4, h5, h6 {
+  h1, h2, h4, h5, h6 {
       font-family: 'Bon Vivant Family', serif !important;
   }
 

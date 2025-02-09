@@ -45,13 +45,13 @@ export const Hero = () => {
             Exklusive Armaturen für Küche & Bad
           </h1>
 
-          <p className="text-lg md:text-xl text-gray-200 font-bold mb-6">
+          <p className="text-xl md:text-xl text-gray-200 mb-6">
             Entdecken Sie die einzigartige Kombination aus italienischem Design und Schweizer Ingenieurkunst mit den MGS-Armaturen.<br />
             Eleganz, Präzision und Innovation für Ihre luxuriöse Küche und Badgestaltung im Küchenstudio Bergheim.
           </p>
 
           <a href="/#beratung">
-            <Button className="bg-primary hover:bg-primary-dark text-white px-6 py-3 mt-9">
+            <Button className="bg-[#61756a] uppercase text-white px-8 py-8 mt-9">
               Beratungstermin buchen
             </Button>
           </a>

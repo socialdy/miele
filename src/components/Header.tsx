@@ -8,16 +8,16 @@ export const Header = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
   return (
-    <header className="fixed w-full top-0 z-50 bg-white/90 backdrop-blur-sm border-b border-gray-100">
+    <header className="fixed w-full top-0 z-50 bg-white backdrop-blur-sm border-b border-gray-100">
       <div className="container mx-auto px-6 md:px-12">
         <nav className="flex items-center justify-between h-20">
           {/* Logo Section */}
           <div className="flex items-center space-x-2">
   <a href="/" className="h-6 sm:h-8">
     <img
-      src="/images/fosterlogo.png"
-      alt="Foster Spa Logo"
-      className="h-full"
+      src="/images/mgs_logo.png"
+      alt="MGS Logo"
+      className="h-full m-0 w-auto"
     />
   </a>
   <a href="https://kuechenstudio-bergheim.at" className="h-11 sm:h-14">
@@ -33,26 +33,27 @@ export const Header = () => {
           <div className="hidden lg:flex items-center gap-8">
             <a
               href="#produkte"
-              className="text-gray-700 hover:text-gray-900 hover:underline transition-colors"
+              className=""
             >
               Produkte
             </a>
             <a
               href="#ueber-foster"
-              className="text-gray-700 hover:text-gray-900 hover:underline transition-colors"
+              className=""
             >
               Über Foster
             </a>
             <a
               href="/#referenzen"
-              className="text-gray-700 hover:text-gray-900 hover:underline transition-colors"
+              className=""
             >
               Referenzen
             </a>
-            <a href="/#beratung">
-              <Button className="bg-[#485959] hover:bg-[#384848] text-white transition-transform ">
-                Jetzt Beratung anfordern
-              </Button>
+            <a
+              href="/#beratung"
+              className=""
+            >
+             Jetzt Beratung anfordern
             </a>
           </div>
 
@@ -60,14 +61,14 @@ export const Header = () => {
           <div className="lg:hidden">
             <button
               onClick={toggleMobileMenu}
-              className="text-gray-700 hover:text-gray-900 focus:outline-none"
+              className="text[#2c2c2e] hover:[#2c2c2e] focus:outline-none"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-6 w-6"
                 fill="none"
                 viewBox="0 0 24 24"
-                stroke="currentColor"
+                stroke="#2c2c2e"
               >
                 <path
                   strokeLinecap="round"
@@ -82,7 +83,7 @@ export const Header = () => {
 
         {/* Mobile Navigation */}
         {isMobileMenuOpen && (
-          <div className="lg:hidden bg-white text-gray-700 border-t border-gray-100 shadow-md">
+          <div className="lg:hidden bg-white text-gray-700 border-t border-gray-100 shadow-md mobile">
             <div className="flex flex-col items-start gap-4 py-4 pl-6">
               <a
                 href="/#produkte"
@@ -105,11 +106,12 @@ export const Header = () => {
               >
                 Referenzen
               </a>
-              <a href="/#beratung" onClick={toggleMobileMenu}>
-                <Button className="bg-[#485959] hover:bg-[#384848] text-white">
-                  Jetzt Beratung anfordern
-                </Button>
-              </a>
+              <a
+              href="/#beratung"
+              className=""
+            >
+             Jetzt Beratung anfordern
+            </a>
             </div>
           </div>
         )}
