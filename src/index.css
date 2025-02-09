@@ -6,7 +6,7 @@
   /** Für Bon Vivant Family **/
   @font-face {
       font-family: "Bon Vivant Family";
-      src: url("public/fonts/BonVivantSerifBold.ttf");
+      src: url("/fonts/BonVivantSerifBold.ttf");
       font-weight: normal;
   }
 
