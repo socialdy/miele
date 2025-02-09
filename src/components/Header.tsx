@@ -38,10 +38,10 @@ export const Header = () => {
               Produkte
             </a>
             <a
-              href="#ueber-foster"
+              href="#ueber-mgstaps"
               className=""
             >
-              Über Foster
+              Über MGSTaps
             </a>
             <a
               href="/#referenzen"
@@ -93,11 +93,11 @@ export const Header = () => {
                 Produkte
               </a>
               <a
-                href="/#ueber-foster"
+                href="/#ueber-mgstaps"
                 className="hover:text-gray-900 hover:underline transition-colors"
                 onClick={toggleMobileMenu}
               >
-                Über Foster
+                Über MGSTaps
               </a>
               <a
                 href="/#referenzen"

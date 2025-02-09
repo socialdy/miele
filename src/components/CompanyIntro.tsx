@@ -1,6 +1,6 @@
 export const CompanyIntro = () => {
   return (
-    <section className="py-20 bg-white" id="ueber-foster">
+    <section className="py-20 bg-white" id="ueber-mgstaps">
       <div className="container mx-auto px-4">
         <div className="flex flex-col items-center text-center">
 
