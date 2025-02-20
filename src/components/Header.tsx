@@ -8,21 +8,21 @@ export const Header = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
   return (
-    <header className="fixed w-full top-0 z-50 bg-white backdrop-blur-sm border-b border-gray-100">
+    <header className="fixed w-full top-0 z-50 bg-black backdrop-blur-sm border-b border-black">
       <div className="container mx-auto px-6 md:px-12">
         <nav className="flex items-center justify-between h-20">
           {/* Logo Section */}
           <div className="flex items-center space-x-2">
   <a href="/" className="h-6 sm:h-8">
     <img
-      src="/images/mgs_logo.png"
+      src="/images/miele.png"
       alt="MGS Logo"
       className="h-full m-0 w-auto"
     />
   </a>
   <a href="https://kuechenstudio-bergheim.at" className="h-11 sm:h-14">
     <img
-      src="/images/me_logo_black.png"
+      src="/images/me_logo.png"
       alt="Küchenstudio Bergheim Logo"
       className="h-full"
     />
@@ -38,10 +38,10 @@ export const Header = () => {
               Produkte
             </a>
             <a
-              href="#ueber-mgstaps"
+              href="#ueber-miele"
               className=""
             >
-              Über MGSTaps
+              Über Miele
             </a>
             <a
               href="/#referenzen"
@@ -61,14 +61,14 @@ export const Header = () => {
           <div className="lg:hidden">
             <button
               onClick={toggleMobileMenu}
-              className="text[#2c2c2e] hover:[#2c2c2e] focus:outline-none"
+              className="text-white hover:text-white focus:outline-none"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-6 w-6"
                 fill="none"
                 viewBox="0 0 24 24"
-                stroke="#2c2c2e"
+                stroke="white"
               >
                 <path
                   strokeLinecap="round"
@@ -83,7 +83,7 @@ export const Header = () => {
 
         {/* Mobile Navigation */}
         {isMobileMenuOpen && (
-          <div className="lg:hidden bg-white text-gray-700 border-t border-gray-100 shadow-md mobile">
+          <div className="lg:hidden bg-black text-gray-700 border-t border-gray-100 shadow-md mobile">
             <div className="flex flex-col items-start gap-4 py-4 pl-6">
               <a
                 href="/#produkte"
@@ -93,11 +93,11 @@ export const Header = () => {
                 Produkte
               </a>
               <a
-                href="/#ueber-mgstaps"
+                href="/#ueber-miele"
                 className="hover:text-gray-900 hover:underline transition-colors"
                 onClick={toggleMobileMenu}
               >
-                Über MGSTaps
+                Über Miele
               </a>
               <a
                 href="/#referenzen"

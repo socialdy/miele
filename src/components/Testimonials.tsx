@@ -10,34 +10,34 @@ export const Testimonials = () => {
   const testimonials = [
     {
       id: 1,
-      name: "Stefan Müller",
-      role: "Privatkunde",
-      quote: "Die Armatur 'Spin SQ' hat unsere Küche perfekt ergänzt. Der schwenkbare Auslauf ist nicht nur praktisch, sondern sieht auch noch richtig edel aus. Sehr zufrieden mit dem Design und der Funktionalität!",
+      name: "Clara Wagner",
+      role: "Ernährungsberaterin",
+      quote: "Der H 7260 Geschirrspüler von Miele hat mich überzeugt. Das Klartextdisplay macht die Bedienung kinderleicht, und mit PerfectClean ist der Geschirrspüler immer schnell und gründlich sauber – perfekt für meinen hektischen Alltag.",
     },
     {
       id: 2,
-      name: "Laura Schmitt",
-      role: "Immobilienentwicklerin",
-      quote: "'F2 SCS' Armaturen haben wir in unseren neuen Luxuswohnungen verbaut. Sie passen perfekt zum modernen Design und sind dabei noch extrem langlebig und umweltfreundlich – absolut empfehlenswert.",
+      name: "Jonas Richter",
+      role: "Bauunternehmer",
+      quote: "Die G 7131 SCi Spülmaschine ist ein echter Zeit- und Energiesparer. Die AutoDos-Funktion macht das Dosieren so einfach und gleichzeitig umweltfreundlich. Ein echtes Highlight für jeden, der auf Effizienz und Nachhaltigkeit setzt.",
     },
     {
       id: 3,
-      name: "Janine Becker",
-      role: "Innenarchitektin",
-      quote: "Die Edelstahlarmaturen von 'Nemo RH' bringen eine elegante, aber schlichte Ästhetik in jedes Badezimmer. Besonders schätze ich die hohe Funktionalität und die einfache Handhabung im Alltag.",
+      name: "Sophie Keller",
+      role: "Freiberufliche Fotografin",
+      quote: "Der FNS 4382 Gefrierschrank von Miele ist eine wahre Bereicherung für mein Studio. Dank NoFrost muss ich nie wieder abtauen, und die SideOpen-Tür erleichtert den Zugriff auf das Gefriergut – unglaublich praktisch!",
     },
     {
       id: 4,
-      name: "Maximilian Schwarz",
+      name: "Maximilian Braun",
       role: "Restaurantbesitzer",
-      quote: "Wir haben in unserem Restaurant 'Vela LD' Armaturen installiert, und die Handbrause hat sich als äußerst praktisch erwiesen. Der Umstellmechanismus zwischen normalem Wasserfluss und Spray ist einfach genial für die Küche.",
+      quote: "Der CM 7750 Kaffeevollautomat liefert meinen Gästen immer den perfekten Kaffee. Mit der CoffeeSelect-Funktion kann ich ganz einfach verschiedene Kaffeespezialitäten zubereiten – das perfekte Gerät für unser Café.",
     },
   ];
 
   return (
-<section className="py-20 bg-[#61756a] text-white" id="referenzen">
+<section className="py-20 bg-black text-white" id="referenzen">
   <div className="container max-w-6xl mx-auto px-4">
-  <h2 className="text-5xl font-light  text-white text-center mb-12 uppercase">Referenzen</h2>
+  <h2 className=" text-white text-center mb-12">Referenzen</h2>
     <Carousel
       opts={{
         align: "start",

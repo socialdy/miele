@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export const Footer = () => {
   return (
-    <footer className="bg-[#2c2c2e] text-white py-16">
+    <footer className="bg-black  py-16">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
           <div>
@@ -18,7 +18,7 @@ export const Footer = () => {
             </p>
           </div>
           <div>
-            <h4 className="text-lg font-light mb-4">Quicklinks</h4>
+            <h4 className="text-lg text-white mb-4">Quicklinks</h4>
             <ul className="space-y-3">
               <li>
                 <a href="https://kuechenstudio-bergheim.at/kuechen" className="text-gray-200 hover:text-white transition-colors">
@@ -43,7 +43,7 @@ export const Footer = () => {
             </ul>
           </div>
           <div>
-            <h4 className="text-lg font-light mb-4">Kontakt</h4>
+            <h4 className="text-lg text-white  mb-4">Kontakt</h4>
             <ul className="space-y-3 text-gray-200">
               <li>Lamprechtshausener Bundesstraße 1</li>
               <li>5101 Bergheim</li>
@@ -61,7 +61,7 @@ export const Footer = () => {
             </ul>
           </div>
           <div>
-            <h4 className="text-lg font-light mb-4">Öffnungszeiten</h4>
+            <h4 className="text-lg text-white  mb-4">Öffnungszeiten</h4>
             <ul className="space-y-3 text-gray-200">
               <li>Mo – Fr: 10:00 – 17:00 Uhr</li>
               <li>Sa – So: Geschlossen</li>
@@ -70,7 +70,7 @@ export const Footer = () => {
         </div>
 
         {/* Rechtliche Links */}
-        <div className="mt-16 pt-8 border-t border-white/10 text-center text-gray-200">
+        <div className="mt-16 pt-8 border-t border-white/90 text-center text-gray-200">
           <ul className="space-y-3">
             <li>
               <a href="https://kuechenstudio-bergheim.at/impressum" className="text-gray-200 hover:text-white transition-colors">

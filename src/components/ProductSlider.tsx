@@ -6,87 +6,75 @@ import { useIsMobile } from "@/hooks/use-mobile";
 const products = [
   {
     id: 1,
-    name: "Nemo RH",
-    image: "/images/nemo_rh.jpg",
-    description: "Schlichte Armatur mit elegantem Design, perfekt für moderne Küchen und Bars. Einfache Wasserfluss- und Temperaturregulierung mit einer Hand.",
+    name: "H 7260 B Edelstahl/CleanSteel",
+    image: "/images/H7260.png",
+    description: "Im perfekt kombinierbaren Design mit Klartextdisplay und PerfectClean.",
   },
   {
     id: 2,
-    name: "F2 SCS",
-    image: "/images/f2_scs.jpg",
-    description: "Zweiloch-Armatur aus Edelstahl AISI316L in Marinequalität. 100 % bleifrei, vollständig recycelbar. Flexibel platzierbar und handpoliert.",
+    name: "G 7131 SCi AD 125 Edition CleanSteel Front",
+    image: "/images/G7131SCiAD.png",
+    description: "mit automatischer Dosierung dank AutoDos mit integrierter PowerDisk.",
   },
   {
     id: 3,
-    name: "Spin SQ",
-    image: "/images/spin_sq.jpg",
-    description: "Eleganter Küchenmischer aus hochwertigem Edelstahl. Schwenkbarer Auslauf, ideal für kleine Spülen.",
+    name: "FNS 4382 D Edelstahllook",
+    image: "/images/FNS4382D.png",
+    description: "mit NoFrost und SideOpen für eine komfortable Side-by-Side Kombination.",
   },
   {
     id: 4,
-    name: "Spin PF",
-    image: "/images/spin_pf.jpg",
-    description: "Kaltwasser-Wandhahn aus Edelstahl AISI316L, mit doppeltem schwenkbarem Auslauf. Unterputzinstallation möglich.",
+    name: "K 7348 C 125 Gala Ed",
+    image: "/images/K7348C125.png",
+    description: "mit PerfectFresh Pro für längere Frische und integriertem 4*-Gefrierfach.",
   },
   {
     id: 5,
-    name: "Vela LD",
-    image: "/images/vela_ld.jpg",
-    description: "Semiprofessionelle Armatur mit Handbrause. Ideal für große Spülbecken und Kücheninseln. Umstellbar von normal auf Spray.",
+    name: "CM 7750 CoffeeSelect Obsidianschwarz",
+    image: "/images/CM7750.png",
+    description: "mit CoffeeSelect und AutoDescale für größte Flexibilität",
   },
   {
     id: 6,
-    name: "MB297",
-    image: "/images/mb297.jpg",
-    description: "Zweiloch-Wandarmatur mit elegantem Auslauf aus Edelstahl AISI316L. Handpoliert für matte oder polierte Oberflächen.",
+    name: "CM 5510 125 Edition Obsidianschwarz matt",
+    image: "/images/CM5510.png",
+    description: "mit OneTouch for Two-Zubereitung für höchsten Kaffeegenuss. ",
   },
   {
     id: 7,
-    name: "MB516",
-    image: "/images/mb516.jpg",
-    description: "Bodenmontierter Badewannenfüller aus Edelstahl AISI316L, handpoliert auf mattes oder glänzendes Finish.",
+    name: "Triflex HX2 125 Gala Edition Obsidianschwarz",
+    image: "/images/TriflexHX2125.png",
+    description: "Triflex HX2 mit 3in1-Design für außergewöhnliche Flexibilität",
   },
   {
     id: 8,
-    name: "SO608",
-    image: "/images/so608.jpg",
-    description: "Großer, quadratischer Duschkopf aus hochwertigem Edelstahl für ein Regenerlebnis. Erhältlich in mattem oder poliertem Finish.",
+    name: "Duoflex HX1 Nordicblau",
+    image: "/images/DuoflexHX1.png",
+    description: "Hohe Saugkraft | automatische Leistungsanpassung | Gerätemodifikation | Nordicblau",
   },
   {
     id: 9,
-    name: "SO614",
-    image: "/images/so614.jpg",
-    description: "Multifunktions-Deckenduschkopf mit drei Wasserstrahlarten und Chromotherapie-Funktion für ein Spa-Erlebnis zu Hause.",
+    name: "TWC220WP 8kg Lotosweiß",
+    image: "/images/TWC220WP.png",
+    description: "8 kg | DirectSensor | EcoDry-Technologie | FragranceDos | PerfectDry",
   },
   {
     id: 10,
-    name: "AC918",
-    image: "/images/ac918.jpg",
-    description: "Spülplatte kompatibel mit Geberit Sigma 8 cm und 12 cm Spülsystemen. Handpoliert mit mattem oder glänzendem Edelstahl-Finish.",
+    name: "TWL680WP 125 Gala Edition Lotosweiß",
+    image: "/images/TWL680WP.png",
+    description: "9 kg | ComfortSensor | SteamCare | SilenceDrum | DryCare 40",
   },
   {
     id: 11,
-    name: "MB441",
-    image: "/images/mb441.jpg",
-    description: "Thermostatisches Duschventil aus Edelstahl AISI316L mit Zwei-Wege-Mengenregelung. Erhältlich in verschiedenen Oberflächen wie Black Steel und Titanium.",
+    name: "WWB380 WCS 125 Edition Lotosweiß",
+    image: "/images/WWB380.png",
+    description: "A-20%* | 8 kg | 1400 U/min | SteamCare | QuickPowerWash | Miele@home",
   },
   {
     id: 12,
-    name: "E455 – PE456",
-    image: "/images/e455_pe456.jpg",
-    description: "Horizontales thermostatisches Duschventil mit Handbrausehalterung. Ermöglicht die Steuerung von Handbrause und zusätzlichem Wasserauslass.",
-  },
-  {
-    id: 13,
-    name: "ER516",
-    image: "/images/er516.jpg",
-    description: "Bodenmontierter Badewannenfüller mit Handbrause. Aus Edelstahl AISI316L, handpoliert auf mattes oder glänzendes Finish.",
-  },
-  {
-    id: 14,
-    name: "AC978",
-    image: "/images/ac978.jpg",
-    description: "Badewannenauslauf für Deckmontage aus Edelstahl. Maximiert den Wasserfluss zum Befüllen der Badewanne. Erhältlich in mattem oder poliertem Edelstahl.",
+    name: "WCI880 WPS 125 Gala Edition Lotosweiß",
+    image: "/images/WCI880.png",
+    description: "A | 9 kg | 1600 U/min | SteamCare | Automatische Dosierung | QuickPowerWash",
   },
 ];
 
@@ -111,24 +99,24 @@ export const ProductSlider = () => {
   };
 
   return (
-    <section className="py-20 bg-white" id="produkte">
+    <section className="py-20 bg-black" id="produkte">
       <div className="container mx-auto px-4 md:px-8">
-        <h2 className="text-5xl font-light text-center text-[#61756a] mb-12 uppercase">Produkte</h2>
+        <h2 className=" text-center text-white mb-12 ">Produkte</h2>
         <div className="relative">
           <div className="flex gap-4 md:gap-8">
             {products
               .slice(currentIndex, currentIndex + slidesPerView)
               .map((product) => (
                 <div key={product.id} className="flex-1 animate-fade-in">
-                  <div className="bg-white shadow-lg">
-                    <img
+                  <div className=" shadow-lg">
+                    <img 
                       src={product.image}
                       alt={product.name}
-                      className=""
+                      className="w-full; height;"
                     />
                     <div className="p-6 md:p-8 text-center">
-                      <h3 className="text-2xl uppercase text-[#2c2c2e] font-[500] md:text-3xl mb-2">{product.name}</h3>
-                      <p className="text[#2c2c2e] mb-4">{product.description}</p>
+                      <h3 className="text-white mb-2">{product.name}</h3>
+                      <p className="text-white mb-4">{product.description}</p>
                     </div>
                   </div>
                 </div>

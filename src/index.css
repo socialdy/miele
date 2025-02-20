@@ -5,39 +5,69 @@
 
   /** Für Bon Vivant Family **/
   @font-face {
-      font-family: "Bon Vivant Family";
-      src: url("/fonts/BonVivantSerifBold.ttf");
-      font-weight: normal;
+      font-family: "Helvetica";
+      src: url("/fonts/Helvetica-Bold.ttf");
+      font-weight: 700;
   }
+  @font-face {
+    font-family: "Helvetica";
+    src: url("/fonts/Helvetica.ttf");
+    font-weight: 400;
+}
+@font-face {
+  font-family: "Helvetica";
+  src: url("/fonts/helvetica-light-587ebe5a59211.ttff");
+  font-weight: 200;
+}
 
   /* Karla für Body */
   body {
-      font-family: 'Karla', sans-serif;
+      font-family: 'Helvetica';
+      font-weight: 400;
   }
 
   nav, .mobile{
-    font-family: 'Rubik', sans-serif;
-    font-size: 12px !important;
-    font-weight: bold;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 1.2px;
     text-transform: uppercase;
-    text-transform: uppercase;
-    padding: 0 15px;
+    color: white;
   }
 
-  /* Rubik für Navigation */
-  nav, h3 {
-      font-family: 'Rubik', sans-serif;
-  }
+  h3{
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.375rem;
+}
 
   /* Bon Vivant für Überschriften */
   h1, h2, h4, h5, h6 {
-      font-family: 'Bon Vivant Family', serif !important;
+      font-family: 'Helvetica', serif !important;
+      font-weight: 400;
   }
 
-  /* Weitere Stile für Buttons und Texte */
-  btn{
-      font-family: 'Karla', sans-serif;
+  p{
+    font-size: 1rem;
+    line-height: 1.375rem;
   }
+
+  h1{
+    color: white;
+    font-size: 2.75rem;
+    line-height: 3.25rem;
+}
+
+  h2{
+    color: white;
+    font-size: 2.1rem;
+    line-height: 3.25rem;
+}
+button{
+  letter-spacing: .0625rem;
+}
+  
+
 
 
 @layer base {
