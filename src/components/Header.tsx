@@ -87,21 +87,21 @@ export const Header = () => {
             <div className="flex flex-col items-start gap-4 py-4 pl-6">
               <a
                 href="/#produkte"
-                className="hover:text-gray-900 hover:underline transition-colors"
+                className="ransition-colors"
                 onClick={toggleMobileMenu}
               >
                 Produkte
               </a>
               <a
                 href="/#ueber-miele"
-                className="hover:text-gray-900 hover:underline transition-colors"
+                className=" transition-colors"
                 onClick={toggleMobileMenu}
               >
                 Über Miele
               </a>
               <a
                 href="/#referenzen"
-                className="hover:text-gray-900 hover:underline transition-colors"
+                className="transition-colors"
                 onClick={toggleMobileMenu}
               >
                 Referenzen
