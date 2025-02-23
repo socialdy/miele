@@ -18,7 +18,7 @@ export const Hero = () => {
       <div className="absolute inset-0 flex flex-col justify-center items-center text-white z-10">
         <div className="max-w-7xl text-center px-4 sm:px-6 lg:px-8">
         <h1 className="mb-5">
-  Miele – Ihr Premium-Partner für Haushaltsgeräte im Küchenstudio Bergheim, Salzburg
+  Miele – Ihr Premium-Partner für Haushaltsgeräte
 </h1>
 
 <p className="mb-6">
