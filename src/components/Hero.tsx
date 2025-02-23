@@ -22,7 +22,7 @@ export const Hero = () => {
 </h1>
 
 <p className="mb-6">
-  Willkommen bei Miele, dem weltweit führenden Anbieter von hochwertigen Haushaltsgeräten. Als exklusiver Partner des Küchenstudio Bergheim in Salzburg bieten wir Ihnen innovative und zuverlässige Miele-Produkte, die Ihre Küche auf höchstem Niveau bereichern. Ob Kochfeld, Backofen oder Geschirrspüler – bei uns finden Sie die besten Geräte, die für Langlebigkeit und herausragende Leistung bekannt sind.
+  Als exklusiver Partner des Küchenstudio Bergheim in Salzburg bieten wir Ihnen innovative und zuverlässige Miele-Produkte, die Ihre Küche auf höchstem Niveau bereichern. Ob Kochfeld, Backofen oder Geschirrspüler – bei uns finden Sie die besten Geräte, die für Langlebigkeit und herausragende Leistung bekannt sind.
 </p>
 
           <a href="/#beratung">
